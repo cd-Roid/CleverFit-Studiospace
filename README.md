@@ -16,8 +16,8 @@ Due to the COVID-19 pandemic, my gym implemented a way to check if the Studio is
 
 ### Tech: 
 * Puppeteer
-* Twilio
-* whatsapp api (possibly? Ill have to check.)
+* Twilio 
+* Twitter Api for later implementation. Twilio does cost money.
 
 
 ## TODO:
