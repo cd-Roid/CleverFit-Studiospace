@@ -1,0 +1,31 @@
+{
+  "name": "cleverfit-studiospace",
+  "version": "1.0.0",
+  "description": "Readme.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cd-Roid/CleverFit-Studiospace.git"
+  },
+  "keywords": [
+    "Web",
+    "scraping",
+    "puppeteer",
+    "nodejs",
+    "twilio"
+  ],
+  "author": "George Nosakhare Iyawe",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/cd-Roid/CleverFit-Studiospace/issues"
+  },
+  "homepage": "https://github.com/cd-Roid/CleverFit-Studiospace#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "puppeteer": "^3.2.0",
+    "twilio": "^3.44.0"
+  }
+}
