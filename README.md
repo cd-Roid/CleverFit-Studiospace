@@ -16,7 +16,13 @@ Due to the COVID-19 pandemic, my gym implemented a way to check if the Studio is
 
 ### Tech: 
 * Puppeteer
-* Twilio
-* whatsapp api (possibly? Ill have to check.)
+* Twilio 
+* Twitter Api for later implementation. Twilio does cost money.
 
 
+## TODO:
+* [ ] Fix env issues. There seems to be a problem with the .env not being read. Probably a formatting error but ill have to check that out.
+* [ ] Get the Message Sender to work. 
+* [ ] Implement a function to parse commands from whatsapp
+* [ ] Implement function to to only start the Web Scraper before im about to go to the gym. Sending messages over twilio could be costly on 24h run. 
+* [ ] Implement function to Format the messages to look more pleasing. 
