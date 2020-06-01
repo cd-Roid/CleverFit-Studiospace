@@ -12,10 +12,9 @@
   },
   "keywords": [
     "Web",
-    "scraping",
-    "puppeteer",
     "nodejs",
-    "twilio"
+    "twitter",
+    "bots"
   ],
   "author": "George Nosakhare Iyawe",
   "license": "MIT ",
@@ -25,7 +24,7 @@
   "homepage": "https://github.com/cd-Roid/CleverFit-Studiospace#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "puppeteer": "^3.2.0",
-    "twilio": "^3.44.0"
+    "node-fetch": "^2.6.0",
+    "twit": "^2.2.11"
   }
 }
