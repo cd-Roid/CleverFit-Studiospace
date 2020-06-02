@@ -4,7 +4,6 @@ Due to the COVID-19 pandemic, my gym implemented a way to check if the Studio is
 
 
 ## Function
-
 The bots send the amount of people in the Gym on an hourly basis.
 
 
