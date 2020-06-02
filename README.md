@@ -19,4 +19,4 @@ The bots send the amount of people in the Gym on an hourly basis.
 * [X]  Parse and filter the the api data.
 * [ ] Implement twittter DM. Twilios isnt working that well
 * [X] Implement a function that sends a tweet hourly.
-* [ ] Implement function to Format the messages to look more pleasing. 
+* [X] Implement function to Format the messages to look more pleasing. 
