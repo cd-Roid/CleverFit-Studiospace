@@ -1,10 +1,26 @@
 const apiFetch = require('./api-parser');
-const config = require('./config');
 const Twitter = require('twitter');
+const config = require('./config');
 
-const bot = new Twitter(config);
 
-console.log(apiFetch);
-let message = apiFetch;
-bot.post('statuses/update', message, () => { console.log(`Tweeted ${message}. Check ${'https://twitter.com/roidcc'}`) });
+let bot = new Twitter(config);
+
+
+module.exports = async function postTweet() {
+  let message = await apiFetch();
+
+  bot.post('statuses/update', { status: `${message}` },
+    (err) => {
+      if (err) {
+        console.log(err);
+
+      } else {
+        console.log(`Tweeted ${message}. Check ${'https://twitter.com/roidcc'}`);
+      }
+
+    }
+  );
+
+}
+
 
