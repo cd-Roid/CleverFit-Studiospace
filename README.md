@@ -17,6 +17,6 @@ The bots send the amount of people in the Gym on an hourly basis.
 ## TODO:
 * [X] Fix env issues. There seems to be a problem with the .env not being read. Probably a formatting error but ill have to check that out.
 * [X]  Parse and filter the the api data.
-* [ ] Implement twittter DM. Twilios isnt working that well
+* [X] Implement twittter DM. Twilios isnt working that well
 * [X] Implement a function that sends a tweet hourly.
 * [X] Implement function to Format the messages to look more pleasing. 
