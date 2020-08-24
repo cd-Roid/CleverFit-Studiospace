@@ -1,6 +1,5 @@
 # CleverFit-Studiospace
-Due to the COVID-19 pandemic, my gym implemented a way to check if the Studio is empty enough for people to train. As I am a lazy bum I do not want to always check the webpage so im scraping needed data to be sent to my phone.
-
+Due to the COVID-19 pandemic, my gym implemented a way to check if the Studio is empty enough for people to train. As I am a lazy bum I do not want to always check i am fetching the needed data over their api and feeding them to my twitter feed over a twitter bot.
 
 
 ## Function
